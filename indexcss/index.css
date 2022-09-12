@@ -1,0 +1,58 @@
+ body {    
+        background: url('../Img/background.jpg') no-repeat center fixed;     
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+.containerbox{
+    position: absolute;
+    width:540px;
+   top: 55%;
+   left: 50%;
+   transform:translate(-50%,-50%);
+  
+}
+.text{
+    color: yellowgreen}
+  
+  /* Style the search field */
+  input[type=text] {
+    font-size: 17px;
+    border: 1px solid grey;
+    width: 460px;
+    height: 40px;
+    float: left;
+    background: #f1f1f1;
+    text-decoration-color: yellow;
+  }
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: yellowgreen;
+    
+    text-align: center;/* Firefox */
+  }
+  input, select, textarea{
+    color: yellowgreen;
+}
+
+textarea:focus, input:focus {
+    color:yellowgreen;
+}
+  /* Style the submit button */
+     button {
+
+    width: 80px;
+    height:40px;
+    background-color:yellowgreen;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+   .containerbox button:hover {
+    background: yellow;
+  }
+  
+  

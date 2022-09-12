@@ -1,0 +1,20 @@
+h2{
+        text-align: center;
+
+}
+body{
+        height:100%;
+}
+    .parent {
+            margin: auto;
+            width: 90%;
+            background-color: #FFFACD;
+           border-radius: 5px;
+    }
+    .child{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        
+    }
+    

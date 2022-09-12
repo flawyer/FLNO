@@ -1,0 +1,27 @@
+h2{
+    text-align: center;
+
+}
+body{
+    height:100%;
+}
+.parent {
+        margin: auto;
+        width: 90%;
+       background-color: #FFFACD;
+       border-radius : 5px; 
+}
+.child{
+    margin-top: 50px;
+    height: 300px;
+    margin-bottom: 50px;
+  display: flex;
+
+
+}
+a:any-link{
+    color: goldenrod;
+}
+a:hover{
+    color: gold;
+}

@@ -1,0 +1,16 @@
+.back{
+    margin-top: 10px;
+    position:absolute; right: 70px; 
+    margin-left: 10px;
+    font-size: 15px;
+}
+.back li{ 
+    display: inline;
+    
+}
+span{
+    color: #343a40;
+}
+.null{
+    margin-top:30px ;
+}
